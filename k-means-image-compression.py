@@ -1,11 +1,12 @@
 __author__ = 'Jackson Eshbaugh'
 __date__ = 'September 6, 2024'
 
-'''
+"""
 An implementation of a k-means cluster that reduces the number of colors in an image.
 Parts of this code adapted from Sebastian Charmot's article:
 https://towardsdatascience.com/clear-and-visual-explanation-of-the-k-means-algorithm-applied-to-image-compression-b7fdc547e410
-'''
+"""
+
 import random
 import numpy as np
 import matplotlib.image as mpimg
